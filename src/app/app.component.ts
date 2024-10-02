@@ -86,10 +86,10 @@ import { Component } from '@angular/core';
         ]}' 
       [renderOptions]='{ 
         buttonSettings: {
-          showCancel: true,
-          showSubmit: true,
-          showNext: true,
-          showPrevious: true
+          showCancel: false,
+          showSubmit: false,
+          showNext: false,
+          showPrevious: false
         } 
       }'>
     </formio>
